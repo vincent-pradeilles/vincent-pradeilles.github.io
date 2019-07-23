@@ -1,11 +1,16 @@
 <html>
 <head>
 	<meta charset="utf-8">
+	<link rel="stylesheet" type="text/css" href="style.css">
 	<title>Where is Vincent?</title>
 </head>
 <body>
-	<h1>Where is Vincent?</h1>
-	<table>
+	<div id="map" style="background-image: url(&quot;https://maps.googleapis.com/maps/api/staticmap?center=Lyon,%20France&amp;zoom=10&amp;size=1200x190&amp;scale=2&amp;maptype=roadmap&amp;key=AIzaSyDeiw5iiluUP6Txt7H584no1adlsDj-jUc&quot;);">
+		
+	</div>
+	<div id="content">
+		<h1>Vincent is currently in <b>Lyon 🇫🇷</b></h1>
+		<table>
 		<thead>
 			<tr>
 				<th>Upcoming trips</th>
@@ -36,5 +41,6 @@
 			</tr>
 		</tbody>
 	</table>
+	</div>
 </body>
 </html>
